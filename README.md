@@ -1,1 +1,1 @@
-Repository for c programming
+New repository for bash scripts and c programming
