@@ -1,1 +1,1 @@
-This directory is for functions and nested loops
+This directory is for loops using putchar
