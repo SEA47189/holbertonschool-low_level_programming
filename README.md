@@ -1,1 +1,1 @@
-This directory is for functions utilizing function, arrays and strings
+This directory is for functions utilizing pointers, arrays and strings
