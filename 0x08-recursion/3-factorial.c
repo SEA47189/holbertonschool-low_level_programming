@@ -1,0 +1,26 @@
+#include "main.h"
+#include <string.h>
+/**
+ *factorial - find factorial of given number
+ *
+ *function - to find the factorial of given
+ *number
+ *
+ *@n: number
+ *
+ *Return: 0 = Success
+ */
+int factorial(int n)
+{
+if (n < 0)
+{
+return (-1);
+}
+if (n > 0)
+{
+return (n * factorial(n - 1));
+}
+{
+return (0);
+}
+}
