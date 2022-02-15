@@ -1,5 +1,4 @@
-This directory contains functions for:
-1. Pointers, Arrays, and Strings
-2. Pointer to Pointers
-3. Multidimensional Arrays
-4. Two dimensional Arrays
+This directory is for:
+Pointers to pointers
+Mulitdimensional Arrays
+Common C stdlib functions to manipulate strings

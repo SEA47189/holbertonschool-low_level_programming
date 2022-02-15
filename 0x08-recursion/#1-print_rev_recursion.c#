@@ -1,0 +1,28 @@
+#include "main.h"
+#include <string.h>
+/**
+*_print_rev_recursion - prints reverse string
+*
+*function - to print a string in reverse
+*followed by a new line
+*
+*@s: character
+*
+*Return: 0 = Success
+*/
+void _print_rev_recursion(char *s)
+{
+
+if (*s == '\0')
+{
+s++;
+return;
+}
+}
+_putchar(*s - 1);
+_putchar('\n');
+}
+{
+return;
+}
+}
