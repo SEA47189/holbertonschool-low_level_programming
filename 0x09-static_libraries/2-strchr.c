@@ -18,10 +18,9 @@ char *_strchr(char *s, char c)
 for (c = 0; s[c] != '\0'; c++)
 {
 if ((c >= 65) && (c <= 90))
-}
-{
 if ((c >= 97) && (c <= 122))
-}
+{
 return (0);
+}
 }
 }
