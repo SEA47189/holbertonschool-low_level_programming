@@ -17,25 +17,24 @@ char *b;
 {
 if (str == NULL)
 return (NULL);
-}
 {
 while (str[len])
 len++;
 b = malloc(len + 1);
-free(b);
 }
-{
 if (b == NULL)
 return (NULL);
 len = 0;
-}
 {
 while (str[len])
+}
+{
 b[len] = str[len];
 len++;
 }
 {
 b[len] = '\0';
 return (b);
+}
 }
 }
