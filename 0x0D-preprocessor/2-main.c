@@ -3,24 +3,15 @@
 /**
  *main - entry point
  *
- *function - prints filenme followed
- *by a new line
+ *_FILE_ - prints filenme followed
  *
- *printf: prints filename
- *
- *@argc: counter points to array
- *@argv: array of counter
+ *printf: prints filename and new line
  *
  *Return: 0 = success
  */
-int main(int argc, char **argv)
+int main(void)
 {
-int a;
-
-for (a = 0; a < argc; a++)
-{
-printf("%s\n", argv[0]);
-}
+printf("%s\n", __FILE__);
 {
 return (0);
 }
