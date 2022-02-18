@@ -17,11 +17,11 @@ int main(int argc, char **argv)
 {
 int a;
 
-for (a = 1; a < argc; a++)
+for (a = 0; a < argc; a++)
 {
 printf("%s\n", argv[0]);
 }
 {
-return (a);
+return (0);
 }
 }
