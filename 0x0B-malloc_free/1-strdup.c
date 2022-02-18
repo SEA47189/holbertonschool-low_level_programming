@@ -21,6 +21,7 @@ return (NULL);
 while (str[len])
 len++;
 b = malloc(len + 1);
+free(str);
 }
 if (b == NULL)
 return (NULL);
