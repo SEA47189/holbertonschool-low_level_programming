@@ -14,19 +14,30 @@
 char *_strncat(char *dest, char *src, int n)
 {
 
-char *d[100];
-char *s[100];
-if (n != 0)
-n++;
+char *new;
+int length;
+int t;
+int p;
+
+new = dest;
+
+length = strlen(dest) - 1;
+
+for (t = 0; t <= length; t++)
 {
-if (d != '\0')
-return (dest);
+dest++;
 }
+p = length + n;
+while ((t >= length)&&(t <= p))
 {
-if (s != '\0')
-return (src);
-}
+if (*src == '\0')
 {
-return (0);
+break;
 }
+*dest = *src;
+dest++;
+src++;
+t++;
+}
+return (new);
 }
