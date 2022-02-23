@@ -1,5 +1,7 @@
-#ifndef DOG.H
-#define DOG.H
+#ifndef DOG
+#define DOG
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * struct dog - newly defined structure for dogs
  * @a: name
