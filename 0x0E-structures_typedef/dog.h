@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG.H
+#define DOG.H
 /**
  * struct dog - newly defined structure for dogs
  * @a: name
@@ -13,3 +13,4 @@ char *name;
 float age;
 char *owner;
 };
+#endif
